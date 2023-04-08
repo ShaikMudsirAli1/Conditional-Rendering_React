@@ -1,0 +1,15 @@
+import React from "react";
+import Input from "./Input";
+
+function Login() {
+  return (
+    <form className="form">
+      <Input type="text" placeholder="UserName" />
+      <Input type="password" placeholder="Password" />
+      <Input type="Password" placeholder="Confirm Password" />
+      <button type="submit">Login</button>
+    </form>
+  );
+}
+
+export default Login;
